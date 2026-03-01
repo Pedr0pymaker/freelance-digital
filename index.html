@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelance Digital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Freelance<span>Digital</span></div>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Soluções Digitais que Geram Resultados</h1>
+  <p>Sites modernos, programação sob medida e edição de vídeos profissionais</p>
+  <a href="#servicos" class="btn">Conhecer serviços</a>
+</section>
+
+<!-- ROLETA -->
+<section class="roleta">
+  <h2>🎡 Embarque no nosso site</h2>
+
+  <div class="roleta-container">
+    <div class="seta">▼</div>
+    <div class="wheel" id="wheel">
+      <span style="--i:0">Sobre</span>
+      <span style="--i:1">Serviços</span>
+      <span style="--i:2">Equipe</span>
+      <span style="--i:3">Contato</span>
+    </div>
+  </div>
+
+  <button onclick="girarRoleta()">Girar roleta</button>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <h2>Quem somos</h2>
+  <p>
+    Somos estudantes do Instituto Federal de Rondônia focados em criar soluções
+    digitais modernas, acessíveis e eficientes para pessoas e empresas.
+  </p>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section bg">
+  <h2>Nossos Serviços</h2>
+
+  <div class="servicos">
+    <div class="servico" onclick="irPara('pedro')">
+      🌐
+      <h3>Desenvolvimento de Sites</h3>
+      <p>Sites rápidos, responsivos e profissionais</p>
+      <span>Pedro Arthur</span>
+    </div>
+
+    <div class="servico" onclick="irPara('pedro')">
+      💻
+      <h3>Programação</h3>
+      <p>Soluções personalizadas</p>
+      <span>Pedro Arthur</span>
+    </div>
+
+    <div class="servico" onclick="irPara('luiz')">
+      🎬
+      <h3>Edição de Vídeos</h3>
+      <p>Conteúdo visual de impacto</p>
+      <span>Luiz Felipe</span>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPE -->
+<section id="equipe" class="section">
+  <h2>Equipe</h2>
+
+  <div class="cards">
+    <div class="card" id="luiz">
+      <img src="img/luiz.jpeg" alt="Luiz Felipe" class="foto">
+      <h3>Luiz Felipe</h3>
+      <p>Editor de Vídeos & Programador</p>
+    </div>
+
+    <div class="card" id="pedro">
+      <img src="img/pedro.jpeg" alt="Pedro Arthur" class="foto">
+      <h3>Pedro Arthur</h3>
+      <p>Desenvolvedor Web & Programador</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Pronto para tirar sua ideia do papel?</h2>
+  <p>Entre em contato e transforme sua presença digital</p>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <h2>Contato</h2>
+  <p>Clique no WhatsApp e fale diretamente conosco</p>
+</section>
+
+<a href="https://wa.me/5569993068292" class="whatsapp" target="_blank">💬</a>
+
+<footer>© 2026 - Freelance Digital</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
